@@ -1,4 +1,6 @@
+/* style.css */
 
+/* Basic styles for the body */
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
@@ -10,6 +12,36 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+/* Styling for a header element */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.navbar li a:hover {
+    background-color: #555;
+}
+
+/* Styling for a header element */
 h1 {
     color: #555;
 }
