@@ -1,1 +1,5 @@
-console.console.log("Hello");
+
+function showAlert() {
+    alert("Hello!");
+}
+window.onload = showAlert;
